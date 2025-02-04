@@ -2,7 +2,6 @@
 int main
 {
     float num;
-    
-    float pi = 3.14;
-    printf("%f",pi);
+    scanf("%f",&num);
+    printf(" You entered: %.2f",pi);
 }
