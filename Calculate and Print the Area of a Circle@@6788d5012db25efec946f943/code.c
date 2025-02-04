@@ -7,6 +7,6 @@ int main() {
     scanf("%f",&a);
     num=a*a*3.14;
  
-    printf("Area: %f", num);
+    printf("Area: %.2f", num);
     return 0;
 }
