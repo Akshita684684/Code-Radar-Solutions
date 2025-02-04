@@ -3,7 +3,7 @@
 
 
 int main() {
-    char word[100],word2[100],num;
+    char word1[100],word2[100],num;
     scanf("%s %s",&word1,&word2);
     num=word1 and word2;
     printf("You entered: %s", num);
