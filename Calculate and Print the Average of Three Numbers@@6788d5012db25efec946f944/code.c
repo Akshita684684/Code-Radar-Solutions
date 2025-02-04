@@ -3,7 +3,8 @@
 
 
 int main() {
-    int a,b,c,num;
+    int a,b,c;
+    float num;
     scanf("%d%d%d",&a,&b,&c);
     num=(a+b+c)/3;
     
