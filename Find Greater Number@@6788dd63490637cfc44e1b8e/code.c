@@ -8,7 +8,6 @@ int main() {
     elseif
     (b>a)
     printf("b");
-    else
-    printf("default");
+  
     return 0;
 }
