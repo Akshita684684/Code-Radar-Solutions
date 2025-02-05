@@ -5,7 +5,10 @@ int main() {
     scanf("%d %d",&a,&b);
     if(a>b)
     printf("a");
-    else
+    elseif
+    (b>a)
     printf("b");
+    else
+    printf("default");
     return 0;
 }
