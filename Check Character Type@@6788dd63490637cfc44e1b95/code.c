@@ -2,7 +2,7 @@
 int main() {
     char a;
     if(a=a,e,i,o,u)
-    printf("Vowel",a);
+    printf("Vowel");
     else
     printf("Consonant");
     return 0;
