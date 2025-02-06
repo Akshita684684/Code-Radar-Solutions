@@ -2,7 +2,7 @@
 int main() {
     char Volwel;
     scanf("%c",Volwel);
-    if(Volwel=a,e,i,o,u)
+    if(Volwel == 'a' || Volwel == 'e' || Volwel == 'i' || Volwel == 'o' || Volwel == 'u' )
     printf("%c",Volwel);
     else
     printf("Consonant");
