@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
-    char a;
-    if(a=a,e,i,o,u)
-    printf("Vowel");
+    char Volwel;
+    if(Volwel=a,e,i,o,u)
+    printf("%c",Volwel);
     else
     printf("Consonant");
     return 0;
