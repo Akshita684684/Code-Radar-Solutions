@@ -10,6 +10,6 @@ int main() {
     else if (isalpha(ch)) 
         printf("Consonant\n");
     else 
-    printf("Consonant");
+    printf("Special Character\n");
     return 0;
 }
