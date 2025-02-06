@@ -6,6 +6,8 @@ int main() {
     scanf("%d %d",&a,&b);
     if(a>b || b>a)
     printf("Profit");
+    else if(a>b)
+    printf("Loss");
     else if (a<b || b<a)
     printf("Loss");
     else
