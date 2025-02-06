@@ -4,7 +4,12 @@ int main() {
     scanf("%c", &Vowel);
     if(Vowel == 'a' || Vowel == 'e' || Vowel == 'i' || Vowel == 'o' || Vowel == 'u' )
     printf("Vowel");
-    else
+    else if (isdigit(ch)) {
+        printf("Digit\n");
+    }
+    else if (isalpha(ch)) {
+        printf("Consonant\n");
+    else 
     printf("Consonant");
     return 0;
 }
