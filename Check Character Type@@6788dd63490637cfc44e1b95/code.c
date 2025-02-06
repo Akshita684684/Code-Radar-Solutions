@@ -2,7 +2,7 @@
 int main() {
     char Vowel;
     scanf("%c", &Vowel);
-    if(Vowel == 'a' || Vowel == 'e' || Vowel == 'i' || Vowel == 'o' || Vowel == 'u' )
+    if(Vowel == 'a' || Vowel == 'e' || Vowel == 'i' || Vowel == 'o' || Vowel == 'u'|| Vowel == 'A' || Vowel == 'E' || Vowel == 'I' || Vowel == 'O' || Vowel == 'U') 
     printf("Vowel");
     else if (isdigit(ch)) 
         printf("Digit\n");
