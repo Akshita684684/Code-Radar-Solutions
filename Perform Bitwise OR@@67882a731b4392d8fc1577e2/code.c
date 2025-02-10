@@ -2,11 +2,10 @@
 
 
 int main() {
-    int a,b;
-    scanf("%d %d",&a,&b);
-    if(a&b &&a|b)
-    printf("%d" ,a);
-    else
-    printf("Opration");
+    int a,b,c;
+    scanf("%d %d %d",&a,&b,&c);
+    if(a&b==c &&  a|b==c)
+    printf("%d" ,c);
+    
     return 0;
 }
