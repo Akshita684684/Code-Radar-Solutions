@@ -10,7 +10,7 @@ int main() {
     while (a!=0){
         a>>=1;
     }
-    if(a&(1<<a))
+    if(a&1<<a)
     printf("Set");
     else
     printf("Not Set");
