@@ -2,9 +2,9 @@
 
 
 int main() {
-    int a,b,c;
-    scanf("%d %d %d",&a,&b,&c);
-    c=a~b;
+    int a,c;
+    scanf("%d %d",&a,&c);
+    c=~a;
     printf("%d", c);
     return 0;
 }
