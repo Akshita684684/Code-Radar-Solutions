@@ -6,19 +6,19 @@ int main() {
     char c;
     scanf("%d %d %c",&a,&b,&c);
     if(a=='+'){
-        e=a+b;
+        e==a+b;
         printf("%d",e);
     }
     else if(a=='-'){
-        e=a-b;
+        e==a-b;
         printf("%d",e);
     }
     else if(a=='*'){
-        e=a*b;
+        e==a*b;
         printf("%d",e);
     }
     else if(a=='/'){
-        e=a/b;
+        e==a/b;
         printf("%d",e);
     }
     else{
