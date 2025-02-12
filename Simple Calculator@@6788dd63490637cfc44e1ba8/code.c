@@ -17,10 +17,7 @@ int main() {
         e=a*b;
         printf("%d",e);
     }
-    else if(c=='/'){
-        e=a/b;
-        printf("%d",e);
-    }
+    
     else{
         printf("error");
     }
