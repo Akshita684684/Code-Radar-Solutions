@@ -2,16 +2,28 @@
 
 
 int main() {
-    int a,b,c;
-    char '*,+,-,/';
-    scanf("%d %d %d %c %c %c %c",&a,&b,&c, &*,&+,&-,&/);
-    if(a+b==c)
-    printf("%d",c);
-    else if (a*b==c)
-    printf("%d",c);
-    else if (a/b==c)
-    printf("%d",c);
-    else (a-b==c)
-    printf("%d",c);
+    int a,b,e=0;
+    char c;
+    scanf("%d %d %c",&a,&b,&c);
+    if(a=='+'){
+        e=a+b;
+        printf("%d",e);
+    }
+    else if(a=='-'){
+        e=a-b;
+        printf("%d",e);
+    }
+    else if(a=='*'){
+        e=a*b;
+        printf("%d",e);
+    }
+    else if(a=='/'){
+        e=a/b;
+        printf("%d",e);
+    }
+    else{
+        printf("error");
+    }
     return 0;
+
 }
