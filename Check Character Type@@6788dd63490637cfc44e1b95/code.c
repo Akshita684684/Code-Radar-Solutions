@@ -29,8 +29,8 @@ int main() {
     else if(isdigit(a)){
         printf("Digit");
     }
-    
-    else 
+    else {
     printf("Special Character");
-    return 0;
+       }
+          return 0;
 }
