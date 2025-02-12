@@ -31,6 +31,6 @@ int main() {
     }
     
     else 
-    printf("Special Character\n");
+    printf("Special Character");
     return 0;
 }
