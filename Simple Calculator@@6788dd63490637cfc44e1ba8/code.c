@@ -17,7 +17,14 @@ int main() {
         e=a*b;
         printf("%d",e);
     }
-    
+    else if (c == '/') {
+        if (b == 0) {
+            printf("error");
+        } else {
+            e = a / b;
+            printf("%d", e);
+        }
+    } 
     else{
         printf("error");
     }
