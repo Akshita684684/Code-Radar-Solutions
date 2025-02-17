@@ -6,7 +6,7 @@ int main() {
     while (a!=0){
         a>>=1;
     }
-    if(a&(1<<a))
+    if(a&(1<<31))
     printf("Set");
     else
     printf("Not Set");
