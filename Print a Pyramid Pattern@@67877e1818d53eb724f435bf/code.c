@@ -7,7 +7,7 @@ int main() {
 
     for (i = 1; i <= n; i++) {
         // Printing spaces
-        for (space >= n - i ; space = 1; space--) {
+        for (space = 1; space <= n - i; space++) {
             printf(" ");
         }
         // Printing stars
