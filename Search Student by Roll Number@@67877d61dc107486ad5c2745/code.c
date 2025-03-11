@@ -17,11 +17,11 @@ int main() {
     
     
     for (i = 0; i < N; i++) {
-        printf("Enter roll number: ");
+        printf(" roll number: ");
         scanf("%d", &students[i].rollno);
-        printf("Enter name: ");
+        printf("name: ");
         scanf("%s", students[i].name);
-        printf("Enter marks: ");
+        printf(" marks: ");
         scanf("%f", &students[i].marks);
     }
     
