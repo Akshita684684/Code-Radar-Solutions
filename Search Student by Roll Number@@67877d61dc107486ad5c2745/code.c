@@ -16,14 +16,6 @@ int main() {
     struct student students[N];
     
     
-    for (i = 0; i < N; i++) {
-        printf(" roll number: ");
-        scanf("%d"\n, &students[i].rollno);
-        printf("name: ");
-        scanf("%s"\n, students[i].name);
-        printf(" marks: ");
-        scanf("%f"\n, &students[i].marks);
-    }
     
 
     printf("Enter roll number to search: ");
