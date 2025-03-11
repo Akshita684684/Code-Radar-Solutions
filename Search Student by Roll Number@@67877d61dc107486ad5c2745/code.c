@@ -10,7 +10,7 @@ int main()
     scanf("%d",&N);
     struct student students[N];
     for (i=0;i<N;i++){
-        if(students[i].roll_number == search_roll){
+        if(students[i].rollnumber == search_roll){
             printf("roll number :%d\n",students[i].rollnumber);
             printtf("Name : %s\n",students[i].name);
             printf("marks: %.2f\n",students[i].marks);
