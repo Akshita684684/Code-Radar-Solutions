@@ -18,11 +18,11 @@ int main() {
     
     for (i = 0; i < N; i++) {
         printf(" roll number: ");
-        scanf("%d", &students[i].rollno);
+        scanf("%d"\n, &students[i].rollno);
         printf("name: ");
-        scanf("%s", students[i].name);
+        scanf("%s"\n, students[i].name);
         printf(" marks: ");
-        scanf("%f", &students[i].marks);
+        scanf("%f"\n, &students[i].marks);
     }
     
 
