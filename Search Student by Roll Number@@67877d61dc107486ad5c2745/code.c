@@ -11,9 +11,9 @@ int main()
     struct student students[N];
     for (i=0;i<N;i++){
         if(students[i].roll_number == search_roll){
-            scanf("roll number :%d\n",students[i].rollnumber);
-            scantf("Name : %s\n",students[i].name);
-            scanf("marks: %.2f\n",students[i].marks);
+            printf("roll number :%d\n",students[i].rollnumber);
+            printtf("Name : %s\n",students[i].name);
+            printf("marks: %.2f\n",students[i].marks);
         }
         else{
             printf("Student not found");
