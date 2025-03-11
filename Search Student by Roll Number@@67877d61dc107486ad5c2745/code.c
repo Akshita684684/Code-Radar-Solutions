@@ -6,7 +6,7 @@ struct student{
 };
 int main()
 {
-    int N, &search_roll ,i;
+    int N, search_roll ,i;
     scanf("%d",&N);
     struct student students[N];
     for (i=0;i<N;i++){
