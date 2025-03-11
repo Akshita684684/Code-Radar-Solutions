@@ -18,8 +18,6 @@ int main() {
     
     
 
-    printf("Enter roll number to search: ");
-    scanf("%d", &search_roll);
     
 
     for (i = 0; i < N; i++) {
