@@ -7,19 +7,19 @@ void reverseString(char str[]) {
     int end = length - 1;
     
     while(start < end) {
-        // Swap characters at start and end
+       
         char temp = str[start];
         str[start] = str[end];
         str[end] = temp;
 
-        // Move start forward and end backward
+       
         start++;
         end--;
     }
 }
 
 int main() {
-    char str[100];  // Array to hold the input string
+    char str[100];  
     
     printf("");
     fgets(str, sizeof(str), stdin);  
