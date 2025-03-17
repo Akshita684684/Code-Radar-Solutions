@@ -19,7 +19,13 @@ void reverseString(char str[]) {
 }
 
 int main() {
-    char str[] = "Hello, World!";
+    char str[100];  // Array to hold the input string
+    
+    printf("Enter a string: ");
+    fgets(str, sizeof(str), stdin);  
+    
+   
+    str[strcspn(str, "\n")] = '\0';
     
     printf("Original String: %s\n", str);
     
@@ -29,3 +35,4 @@ int main() {
     
     return 0;
 }
+
