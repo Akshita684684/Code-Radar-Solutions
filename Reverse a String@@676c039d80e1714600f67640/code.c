@@ -21,17 +21,17 @@ void reverseString(char str[]) {
 int main() {
     char str[100];  // Array to hold the input string
     
-    printf("Enter a string: ");
+    printf(" ");
     fgets(str, sizeof(str), stdin);  
     
    
     str[strcspn(str, "\n")] = '\0';
     
-    printf("Original String: %s\n", str);
+    printf("%s\n", str);
     
     reverseString(str);
     
-    printf("Reversed String: %s\n", str);
+    printf(" %s\n", str);
     
     return 0;
 }
