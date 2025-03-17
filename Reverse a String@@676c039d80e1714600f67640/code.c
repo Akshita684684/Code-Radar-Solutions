@@ -21,7 +21,7 @@ void reverseString(char str[]) {
 int main() {
     char str[100];  // Array to hold the input string
     
-    printf(" ");
+    printf("");
     fgets(str, sizeof(str), stdin);  
     
    
