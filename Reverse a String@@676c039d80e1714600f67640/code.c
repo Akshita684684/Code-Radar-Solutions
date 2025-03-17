@@ -27,7 +27,7 @@ int main() {
    
     str[strcspn(str, "\n")] = '\0';
     
-    printf("%s\n", str);
+    
     
     reverseString(str);
     
